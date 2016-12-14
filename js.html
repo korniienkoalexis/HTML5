@@ -3,27 +3,30 @@
    <head>
       <title>HTML</title>
       <meta charset="utf-8" />
+	  <link rel="stylesheet" type="text/css" href="style.css">
    </head>
    <body>
    <header>
-		<img src="webLogo.PNG" alt="webLogo logo" width="245" height="134" />
+		<div class="image-float">
+		<a href="index.html" class="logo"><img src="webLogo.PNG" alt="webLogo logo" width="245" height="134" /></a>
+		</div>
 		<h1>Основы Web-технологий</h1>
-	   <nav>
-		  <ul>
-			<li><a href="index.html">Главная</a>
+		
+		<nav>
+		  <ul class="headMenu">
+			<li><a href="index.html">Главная</a></li>
 			<li><a href="webtechnology.html">Web-технологии</a>
-				<ul>
+				<ul class="submenu">
 					<li><a href="html.html">HTML5</a></li>
 					 <li><a href="css.html">CSS3</a></li>
 					 <li><a href="js.html">JavaScript</a></li>
-				</ul>
-			</li>
+				</ul></li>
 			 <li><a href="calculator.html">Калькулятор</a></li>
 			 <li><a href="test.html">Тест</a></li>
 		  </ul>
 	   </nav>
-	</header>
-   
+		</header>
+	<div class="body">
 	<article>
 	<h2>JavaScript</h2>
 
@@ -33,7 +36,7 @@
 	На JavaScript оказали влияние многие языки, при разработке была цель сделать язык похожим на Java, но при этом лёгким для использования <i>непрограммистами</i>. Языком JavaScript не владеет какая-либо компания или организация, что отличает его от ряда языков программирования, используемых в Web-разработке.
 	Название «JavaScript» является зарегистрированным <i>товарным знаком</i> компании <i>Oracle Corporation</i>.
 	</article>
-
+	</div>
 	<br />
 	<footer>
 		<address>
